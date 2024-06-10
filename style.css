@@ -15,9 +15,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     background-color: white;
     height: 60px;
     margin: 0;
@@ -73,9 +70,6 @@ header nav ul li a:hover {
 /* ABOUT SECTION STYLING */
 
 #about {
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     border-radius: 10px;
     margin-top: 150px;
 }
@@ -106,7 +100,6 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     height: 350px;
-    /*border: 1px white solid;*/
 }
 
 #about div div div {
@@ -119,7 +112,6 @@ header nav ul li a:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    /*background-image: url("images/div_background.jpg");*/
     background: linear-gradient(45deg,#46223c, #32306d);
 }
 #about div div div h2 {
@@ -181,9 +173,6 @@ header nav ul li a:hover {
 }
 #education div div div {
     border: 1px white solid;
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     background: linear-gradient(45deg, #90313f,#46223c,#32306d );
     border-radius: 5px;
     display: flex;
@@ -277,9 +266,6 @@ header nav ul li a:hover {
     font-family: "Jazz LET", sans-serif;
 }
 #hobbies div div div {
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     background-color: #883a51;
     padding: 15px;
     margin-inline: 15px;
