@@ -272,6 +272,9 @@ header nav ul li a:hover {
     height: 300px;
     border-radius: 50%;
 }
+#hobbies div div div h2 {
+    font-family: "Jazz LET", sans-serif;
+}
 #hobbies div div div {
     /*background-image: url("images/div_background.jpg");*/
     /*background-size: cover;*/
