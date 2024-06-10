@@ -113,7 +113,8 @@ header nav ul li a:hover {
     border: 1px white solid;
     margin-inline: 50px;
     width: 50%;
-    height: 400px;
+    height: 200px;
+    padding: 5px;
     display: grid;
     text-align: center;
     justify-content: center;
