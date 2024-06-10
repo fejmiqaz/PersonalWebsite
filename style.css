@@ -331,6 +331,8 @@ footer {
     color: purple;
 }
 
+/* Making the website fit the size of a normal cellphone screen */
+
 @media only screen and (max-width: 390px) {
     header div nav {
         margin-inline: 10px;
