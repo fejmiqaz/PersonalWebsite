@@ -424,7 +424,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
     header nav h1 {
         font-size: 1.5em;
     }
