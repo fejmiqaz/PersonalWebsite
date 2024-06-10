@@ -345,7 +345,6 @@ footer {
     color: purple;
 }
 
-
 @media only screen and (max-width: 1200px) {
     header div nav {
         margin-inline: 30px;
@@ -474,3 +473,79 @@ footer {
     }
 }
 
+@media only screen and (max-width: 390px) {
+    header div nav {
+        margin-inline: 10px;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    #about div div div {
+        width: 95%;
+        margin-inline: 2.5%;
+    }
+
+    #education div div div {
+        width: 95%;
+        margin-inline: 2.5%;
+    }
+
+    #hobbies div div div {
+        width: 95%;
+        margin-inline: 2.5%;
+    }
+
+    #contact div {
+        padding-inline: 10px;
+    }
+
+    header nav h1 {
+        font-size: 1.2em;
+    }
+
+    header nav ul li a {
+        font-size: 1em;
+    }
+
+    #about div h1 {
+        font-size: 1.5em;
+    }
+
+    #about div div div h2 {
+        font-size: 1.2em;
+    }
+
+    #about div div div p {
+        font-size: 0.8em;
+    }
+
+    #education div h1 {
+        font-size: 1.5em;
+    }
+
+    #education div h2 {
+        font-size: 1em;
+    }
+
+    #education div p {
+        font-size: 0.9em;
+    }
+
+    #skills div h1 {
+        font-size: 1.5em;
+    }
+
+    #skills div div ul li {
+        font-size: 0.9em;
+    }
+
+    #hobbies div h1 {
+        font-size: 1.5em;
+    }
+
+    #contact div h1 {
+        font-size: 1em;
+    }
+}
