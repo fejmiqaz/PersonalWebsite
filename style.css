@@ -1,0 +1,344 @@
+body {
+    background-image: url("images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+
+/* HEADER SECTION STYLING */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-color: white;
+    height: 60px;
+    margin: 0;
+}
+
+header div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 60px;
+    align-items: center;
+}
+
+header nav h1 {
+    color: purple;
+    font-family: "Jazz LET", sans-serif;
+}
+
+header nav h1:hover {
+    color: blueviolet;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-inline: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-size: 25px;
+    font-family: "Jazz LET", sans-serif;
+    color: purple;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: blueviolet;
+}
+
+/* ABOUT SECTION STYLING */
+
+#about {
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+#about div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#about div h1 {
+    text-align: center;
+    font-family: "Jazz LET", sans-serif;
+    color: white;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+#about div h3 {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Jazz LET", sans-serif;
+}
+#about div div {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    /*border: 1px white solid;*/
+}
+
+#about div div div {
+    border: 1px white solid;
+    margin-inline: 50px;
+    width: 50%;
+    height: 400px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url("images/div_background.jpg");*/
+    background: linear-gradient(45deg,#46223c, #32306d);
+}
+#about div div div h2 {
+    font-family: "Palatino Linotype", serif;
+    font-size: 50px;
+}
+#about div div div p {
+    line-height: 1.5;
+    font-family: "Palatino Linotype", sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* EDUCATION SECTION STYLING */
+
+#education {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#education div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#education div h1 {
+    text-align: center;
+    font-family: "Jazz LET", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#education div h2 {
+    text-align: left;
+    font-family: "Jazz LET", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#education div p {
+    font-family: "Jazz LET", sans-serif;
+    font-size: 20px;
+}
+
+#education div div {
+    text-align: left;
+    color: white;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+#education div div div {
+    border: 1px white solid;
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background: linear-gradient(45deg, #90313f,#46223c,#32306d );
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+/* SKILLS SECTION STYLING */
+
+#skills {
+    margin-top: 150px;
+}
+
+#skills div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#skills div h1 {
+    text-align: center;
+    font-family: "Jazz LET", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+#skills div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills div div ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills div div ul li a {
+    text-decoration: none;
+}
+
+#skills div div ul li {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: "Jazz LET", sans-serif;
+    background-color: white;
+    color: purple;
+}
+
+/* HOBBIES SECTION STYLING */
+
+#hobbies {
+    margin-block: 150px;
+}
+
+#hobbies div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#hobbies div h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Jazz LET", sans-serif;
+    color: white;
+    margin: 20px;
+}
+#hobbies div div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hobbies div div div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#hobbies div div div {
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-color: #883a51;
+    padding: 15px;
+    margin-inline: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTACT SECTION STYLING */
+
+footer {
+    height: 60px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact {
+    margin-top: 150px;
+    background-color: white;
+}
+
+#contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact div h1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Jazz LET", sans-serif;
+    color: purple;
+    margin: 20px;
+}
+
+#contact div {
+    width: 100%;
+    height: 100%;
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact div ul li {
+    padding-inline: 10px;
+}
+
+#contact div h2 a {
+    font-family: "Jazz LET", sans-serif;
+    text-decoration: none;
+    color: purple;
+}
+
+
