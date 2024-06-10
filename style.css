@@ -342,3 +342,131 @@ footer {
 }
 
 
+@media only screen and (max-width: 1200px) {
+    header div nav {
+        margin-inline: 30px;
+    }
+
+    #about div div {
+        height: auto;
+    }
+
+    #about div div div {
+        width: 80%;
+        margin-inline: 10%;
+        height: auto;
+    }
+
+    #hobbies div div div {
+        width: 80%;
+        margin-inline: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header div nav {
+        flex-direction: column;
+        margin-inline: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    #about div div {
+        flex-direction: column;
+    }
+
+    #about div div div {
+        width: 90%;
+        margin-inline: 5%;
+    }
+
+    #education div div {
+        flex-direction: column;
+    }
+
+    #education div div div {
+        width: 90%;
+        margin-inline: 5%;
+    }
+
+    #skills div div {
+        flex-direction: column;
+    }
+
+    #skills div div ul li {
+        margin-inline: 0;
+        margin-top: 10px;
+    }
+
+    #hobbies div div {
+        flex-direction: column;
+    }
+
+    #hobbies div div div {
+        width: 90%;
+        margin-inline: 5%;
+    }
+
+    #contact div {
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header nav h1 {
+        font-size: 1.5em;
+    }
+
+    header nav ul li a {
+        font-size: 1.2em;
+    }
+
+    #about div h1 {
+        font-size: 2em;
+    }
+
+    #about div div div h2 {
+        font-size: 1.5em;
+    }
+
+    #about div div div p {
+        font-size: 0.9em;
+    }
+
+    #education div h1 {
+        font-size: 2em;
+    }
+
+    #education div h2 {
+        font-size: 1.2em;
+    }
+
+    #education div p {
+        font-size: 1em;
+    }
+
+    #skills div h1 {
+        font-size: 2em;
+    }
+
+    #skills div div ul li {
+        font-size: 1em;
+    }
+
+    #hobbies div h1 {
+        font-size: 2em;
+    }
+
+    #contact div h1 {
+        font-size: 1.2em;
+    }
+}
+
