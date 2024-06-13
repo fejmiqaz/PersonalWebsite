@@ -15,12 +15,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     background-color: white;
     height: 60px;
-    margin: 0;
+    padding-top: 10px;
 }
 
 header div {
@@ -82,7 +79,7 @@ header nav ul li a:hover {
     /*background-repeat: no-repeat;*/
     border-radius: 0 0 10px 10px;
     margin-bottom: 100px;
-    padding-top: 200px;
+    padding-top: 150px;
     background-color: white;
 }
 
@@ -154,6 +151,7 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    margin-inline: 30px;
 }
 #education div h1 {
     text-align: center;
@@ -320,15 +318,14 @@ header nav ul li a:hover {
 /* CONTACT SECTION STYLING */
 
 #contact {
-    width: 100%;
     border-radius: 10px 10px 0 0;
     margin-top: 150px;
     margin-bottom: 0;
     background-color: white;
     height: 700px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact div {
@@ -347,6 +344,7 @@ header nav ul li a:hover {
     text-align: center;
     margin-inline: 20px;
     padding: 15px;
+    width: 50%;
 }
 
 #contact div div a {
@@ -363,18 +361,19 @@ header nav ul li a:hover {
     border-radius: 30px;
     /*border: 1px white solid;*/
     /*background-image: url("images/div_background.jpg");*/
-    width: 850px;
+    width: 350px;
     height: 300px;
     display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: 2px purple solid;
 }
 
 #contact div:nth-child(2) form label input {
     text-align: center;
     border-radius: 5px;
-    width: 425px;
+    width: 300px;
     height: 30px;
 }
 
