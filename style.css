@@ -21,6 +21,7 @@ header {
     background-color: white;
     height: 60px;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 header div {
@@ -29,6 +30,7 @@ header div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header div nav {
@@ -37,11 +39,16 @@ header div nav {
     justify-content: space-between;
     margin-inline: 60px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav h1 {
     color: purple;
     font-family: "Jazz LET", sans-serif;
+    /* HERE !!! */
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 header nav h1:hover {
@@ -169,7 +176,7 @@ header nav ul li a:hover {
 
 #education div p {
     font-family: "Jazz LET", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #education div div {
@@ -180,6 +187,8 @@ header nav ul li a:hover {
     align-items: center;
     margin-bottom: 30px;
     padding: 5px;
+    
+    flex-wrap: wrap;
 }
 #education div div div {
     border: 1px white solid;
@@ -195,7 +204,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 /* SKILLS SECTION STYLING */
@@ -222,6 +231,8 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    flex-wrap: wrap;
 }
 #skills div div ul {
     display: grid;
@@ -270,7 +281,8 @@ header nav ul li a:hover {
     margin: 20px;
 }
 #hobbies div div {
-
+    flex-wrap: wrap;
+    
     display: flex;
     justify-content: center;
     align-items: center;
