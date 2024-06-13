@@ -21,7 +21,6 @@ header {
     background-color: white;
     height: 60px;
     margin: 0;
-    flex-wrap: wrap;
 }
 
 header div {
@@ -45,8 +44,6 @@ header div nav {
 header nav h1 {
     color: purple;
     font-family: "Jazz LET", sans-serif;
-    /* HERE !!! */
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -187,7 +184,6 @@ header nav ul li a:hover {
     margin-bottom: 30px;
     padding: 5px;
 
-    flex-wrap: wrap;
 }
 #education div div div {
     border: 1px white solid;
@@ -236,8 +232,6 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    flex-wrap: wrap;
 }
 #skills div div ul {
     display: grid;
@@ -297,8 +291,6 @@ header nav ul li a:hover {
     margin: 20px;
 }
 #hobbies div div {
-    flex-wrap: wrap;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,14 +320,15 @@ header nav ul li a:hover {
 /* CONTACT SECTION STYLING */
 
 #contact {
+    width: 100%;
     border-radius: 10px 10px 0 0;
     margin-top: 150px;
     margin-bottom: 0;
     background-color: white;
     height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 #contact div {
@@ -355,7 +348,6 @@ header nav ul li a:hover {
     margin-inline: 20px;
     padding: 15px;
 }
-
 
 #contact div div a {
     text-decoration: none;
