@@ -83,9 +83,10 @@ header nav ul li a:hover {
     /*background-image: url("images/div_background.jpg");*/
     /*background-size: cover;*/
     /*background-repeat: no-repeat;*/
-    border-radius: 10px;
-    margin-top: 200px;
+    border-radius: 0 0 10px 10px;
     margin-bottom: 100px;
+    padding-top: 200px;
+    background-color: white;
 }
 
 #about div {
@@ -97,8 +98,7 @@ header nav ul li a:hover {
 #about div h1 {
     text-align: center;
     font-family: "Jazz LET", sans-serif;
-    color: white;
-    margin-bottom: 0;
+    color: purple;
     font-size: 50px;
 }
 #about div h3 {
@@ -114,7 +114,6 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     height: 350px;
-    /*border: 1px white solid;*/
 }
 
 #about div div div {
@@ -123,7 +122,7 @@ header nav ul li a:hover {
     width: 50%;
     height: 200px;
     padding: 5px;
-    display: grid;
+    display: inline-grid;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -187,7 +186,7 @@ header nav ul li a:hover {
     align-items: center;
     margin-bottom: 30px;
     padding: 5px;
-    
+
     flex-wrap: wrap;
 }
 #education div div div {
@@ -212,6 +211,12 @@ header nav ul li a:hover {
 #skills {
     margin-top: 170px;
     margin-bottom: 160px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    border-radius: 10px;
 }
 
 #skills div {
@@ -223,7 +228,7 @@ header nav ul li a:hover {
 #skills div h1 {
     text-align: center;
     font-family: "Jazz LET", sans-serif;
-    color: white;
+    color: purple;
     font-size: 50px;
     margin: 20px;
 }
@@ -231,7 +236,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     flex-wrap: wrap;
 }
 #skills div div ul {
@@ -242,6 +247,17 @@ header nav ul li a:hover {
 
 #skills div div ul li a {
     text-decoration: none;
+    color: purple;
+}
+
+#skills div div ul li a:hover{
+    background-color: purple;
+    color: white;
+}
+
+#skills div div ul li:hover {
+    background-color: purple;
+    color: white;
 }
 
 #skills div div ul li {
@@ -282,7 +298,7 @@ header nav ul li a:hover {
 }
 #hobbies div div {
     flex-wrap: wrap;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,17 +328,21 @@ header nav ul li a:hover {
 /* CONTACT SECTION STYLING */
 
 #contact {
+    border-radius: 10px 10px 0 0;
     margin-top: 150px;
+    margin-bottom: 0;
+    background-color: white;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact div {
-    background-image: url("images/div_background.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    border-radius: 30px;
-    border: 1px white solid;
 }
 
 #contact div div {
@@ -332,10 +352,11 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px black solid;
     margin-inline: 20px;
     padding: 15px;
 }
+
+
 #contact div div a {
     text-decoration: none;
     color: purple;
@@ -370,9 +391,9 @@ header nav ul li a:hover {
 
 footer {
     height: 60px;
+    margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
