@@ -367,7 +367,6 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px purple solid;
 }
 
 #contact div:nth-child(2) form label input {
