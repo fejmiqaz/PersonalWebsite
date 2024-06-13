@@ -15,6 +15,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     background-color: white;
     height: 60px;
     margin: 0;
@@ -70,8 +73,12 @@ header nav ul li a:hover {
 /* ABOUT SECTION STYLING */
 
 #about {
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     border-radius: 10px;
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 #about div {
@@ -100,6 +107,7 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     height: 350px;
+    /*border: 1px white solid;*/
 }
 
 #about div div div {
@@ -112,7 +120,9 @@ header nav ul li a:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg,#46223c, #32306d);
+    border-radius: 30px;
+    background-image: url("images/div_background.jpg");
+    /*background: linear-gradient(45deg,#46223c, #32306d);*/
 }
 #about div div div h2 {
     font-family: "Palatino Linotype", serif;
@@ -173,8 +183,15 @@ header nav ul li a:hover {
 }
 #education div div div {
     border: 1px white solid;
-    background: linear-gradient(45deg, #90313f,#46223c,#32306d );
-    border-radius: 5px;
+    /*background-image: url("images/div_background.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+
+    /*background: linear-gradient(45deg, #90313f,#46223c,#32306d );*/
+
+    background-image: url("images/div_background.jpg");
+
+    border-radius: 30px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -184,7 +201,8 @@ header nav ul li a:hover {
 /* SKILLS SECTION STYLING */
 
 #skills {
-    margin-top: 150px;
+    margin-top: 170px;
+    margin-bottom: 160px;
 }
 
 #skills div {
@@ -234,7 +252,8 @@ header nav ul li a:hover {
 /* HOBBIES SECTION STYLING */
 
 #hobbies {
-    margin-block: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #hobbies div {
@@ -266,10 +285,11 @@ header nav ul li a:hover {
     font-family: "Jazz LET", sans-serif;
 }
 #hobbies div div div {
-    background-color: #883a51;
+    /*background-color: #883a51;*/
+    background-image: url("images/div_background.jpg");
     padding: 15px;
     margin-inline: 15px;
-    border-radius: 5px;
+    border-radius: 30px;
     color: white;
     text-align: center;
     display: grid;
@@ -279,59 +299,70 @@ header nav ul li a:hover {
 
 /* CONTACT SECTION STYLING */
 
-footer {
-    height: 60px;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #contact {
     margin-top: 150px;
-    background-color: white;
 }
 
 #contact div {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#contact div h1 {
-    text-align: left;
-    font-size: 20px;
-    font-family: "Jazz LET", sans-serif;
-    color: purple;
-    margin: 20px;
+    padding: 20px;
 }
 
-#contact div {
-    width: 100%;
-    height: 100%;
-    padding-inline: 50px;
-    display: flex;
-    justify-content: space-between;
+#contact div div {
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px black solid;
+    margin-inline: 20px;
+    padding: 15px;
 }
-
-#contact div ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#contact div ul li {
-    padding-inline: 10px;
-}
-
-#contact div h2 a {
-    font-family: "Jazz LET", sans-serif;
+#contact div div a {
     text-decoration: none;
     color: purple;
+    font-family: "Jazz LET", sans-serif;
+}
+#contact div div img {
+    height: 150px;
+    width: 150px;
 }
 
-/* Making the website fit the size of a normal cellphone screen */
+#contact div:nth-child(2) form {
+    border-radius: 30px;
+    /*border: 1px white solid;*/
+    /*background-image: url("images/div_background.jpg");*/
+    width: 850px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact div:nth-child(2) form label input {
+    text-align: center;
+    border-radius: 5px;
+    width: 425px;
+    height: 30px;
+}
+
+
+/* FOOTER SECTION STYLING */
+
+footer {
+    height: 60px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
 
 @media only screen and (max-width: 390px) {
     header div nav {
