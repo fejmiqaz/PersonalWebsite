@@ -316,10 +316,12 @@ header nav ul li a:hover {
 }
 
 #contact div {
+    background-image: url("images/div_background.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    border-radius: 30px;
 }
 
 #contact div div {
