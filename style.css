@@ -322,6 +322,7 @@ header nav ul li a:hover {
     align-items: center;
     padding: 20px;
     border-radius: 30px;
+    border: 1px white solid;
 }
 
 #contact div div {
