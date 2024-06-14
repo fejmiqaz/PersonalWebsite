@@ -107,6 +107,7 @@ header nav ul li a:hover {
 }
 
 #about div div div {
+    box-shadow: 10px 10px 5px 5px gray;
     margin-inline: 50px;
     width: 50%;
     height: 200px;
@@ -186,6 +187,7 @@ header nav ul li a:hover {
 #education div div div {
     border: 1px white solid;
     background-image: url("images/div_background.jpg");
+    box-shadow: 10px 10px 5px lightpink;
     border-radius: 30px;
     display: flex;
     justify-content: left;
@@ -235,8 +237,7 @@ header nav ul li a:hover {
     color: purple;
 }
 
-#skills div div ul li a:hover{
-    background-color: purple;
+#skills div div ul li a:hover {
     color: white;
 }
 
@@ -298,6 +299,7 @@ header nav ul li a:hover {
 #hobbies div div div {
     /*background-color: #883a51;*/
     background-image: url("images/div_background.jpg");
+    box-shadow: 10px 10px 5px lightpink;
     padding: 15px;
     margin-inline: 15px;
     border-radius: 30px;
