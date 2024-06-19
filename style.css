@@ -74,12 +74,9 @@ header nav ul li a:hover {
 /* ABOUT SECTION STYLING */
 
 #about {
-    /*background-image: url("images/div_background.jpg");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     border-radius: 0 0 10px 10px;
     margin-bottom: 100px;
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: white;
 }
 
@@ -214,6 +211,7 @@ header nav ul li a:hover {
     margin: 10px;
 }
 #skills div h1 {
+    width: 100%;
     text-align: center;
     font-family: "Jazz LET", sans-serif;
     color: white;
@@ -231,33 +229,33 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-#skills div div ul li a {
-    text-decoration: none;
-    color: purple;
-}
-
-#skills div div ul li a:hover {
-    color: white;
-}
-
 #skills div div ul li:hover {
-    background-color: purple;
+    background-color: pink;
     color: white;
 }
 
 #skills div div ul li {
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
-    display: inline;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-inline: 5px;
     border-radius: 5px;
     padding: 10px;
     margin-top: 15px;
-    font-family: "Jazz LET", sans-serif;
+    height: 25px;
     background-color: white;
+    width: 100%;
+}
+#skills div div ul li p {
+    font-size: 35px;
+    color: purple;
+    font-family: "Jazz LET", sans-serif;
+}
+
+#skills div div ul li span {
+    font-size: 35px;
     color: purple;
 }
 
