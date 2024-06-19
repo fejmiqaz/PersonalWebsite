@@ -198,10 +198,11 @@ header nav ul li a:hover {
     margin-top: 170px;
     margin-bottom: 160px;
     justify-content: center;
-    display: flex;
+    display: grid;
     align-items: center;
-    height: 700px;
+    height: auto;
     border-radius: 10px;
+    padding: 40px;
 }
 
 #skills div {
@@ -210,54 +211,134 @@ header nav ul li a:hover {
     align-items: center;
     margin: 10px;
 }
-#skills div h1 {
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills h1 {
     width: 100%;
     text-align: center;
-    font-family: "Jazz LET", sans-serif;
+    font-family: 'Jazz LET', sans-serif;
     color: white;
     font-size: 50px;
     margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-#skills div div {
+
+.skills-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
-#skills div div ul {
-    display: grid;
+.skills-list ul {
+    display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
-#skills div div ul li:hover {
-    background-color: pink;
-    color: white;
-}
-
-#skills div div ul li {
+.skills-list li {
+    width: 300px;
     text-align: center;
-    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 5px;
+    margin: 5px;
     border-radius: 5px;
-    padding: 10px;
-    margin-top: 15px;
-    height: 25px;
-    background-color: white;
-    width: 100%;
-}
-#skills div div ul li p {
-    font-size: 35px;
-    color: purple;
-    font-family: "Jazz LET", sans-serif;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
 }
 
-#skills div div ul li span {
-    font-size: 35px;
+.skills-list li:hover {
+    background-color: pink;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.skills-list p {
+    font-size: 25px;
+    color: purple;
+    font-family: 'Jazz LET', sans-serif;
+    margin: 0;
+}
+
+.skills-list span {
+    font-size: 25px;
     color: purple;
 }
+
+
+/*#skills {*/
+/*    margin-top: 170px;*/
+/*    margin-bottom: 160px;*/
+/*    justify-content: center;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    height: 700px;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*#skills div {*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 10px;*/
+/*}*/
+/*#skills div h1 {*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    font-family: "Jazz LET", sans-serif;*/
+/*    color: white;*/
+/*    font-size: 50px;*/
+/*    margin: 20px;*/
+/*}*/
+/*#skills div div {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*#skills div div ul {*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#skills div div ul li:hover {*/
+/*    background-color: pink;*/
+/*    color: white;*/
+/*}*/
+
+/*#skills div div ul li {*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin-inline: 5px;*/
+/*    border-radius: 5px;*/
+/*    padding: 10px;*/
+/*    margin-top: 15px;*/
+/*    height: 25px;*/
+/*    background-color: white;*/
+/*    width: 100%;*/
+/*}*/
+/*#skills div div ul li p {*/
+/*    font-size: 35px;*/
+/*    color: purple;*/
+/*    font-family: "Jazz LET", sans-serif;*/
+/*}*/
+
+/*#skills div div ul li span {*/
+/*    font-size: 35px;*/
+/*    color: purple;*/
+/*}*/
 
 /* TRAVEL SECTION STYLING */
 
@@ -343,11 +424,10 @@ header nav ul li a:hover {
     font-family: "Jazz LET", sans-serif;
 }
 #hobbies div div div {
-    /*background-color: #883a51;*/
     background-image: url("images/div_background.jpg");
     box-shadow: 10px 10px 5px lightpink;
     padding: 15px;
-    margin-inline: 15px;
+    margin-inline: 25px;
     border-radius: 30px;
     color: white;
     text-align: center;
