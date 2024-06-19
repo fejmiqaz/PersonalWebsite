@@ -200,7 +200,6 @@ header nav ul li a:hover {
 #skills {
     margin-top: 170px;
     margin-bottom: 160px;
-    background-color: white;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -217,7 +216,7 @@ header nav ul li a:hover {
 #skills div h1 {
     text-align: center;
     font-family: "Jazz LET", sans-serif;
-    color: purple;
+    color: white;
     font-size: 50px;
     margin: 20px;
 }
@@ -262,10 +261,60 @@ header nav ul li a:hover {
     color: purple;
 }
 
+/* TRAVEL SECTION STYLING */
+
+#travel {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#travel div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#travel div h1 {
+     text-align: center;
+     font-size: 50px;
+     font-family: "Jazz LET", sans-serif;
+     color: white;
+     margin: 20px;
+}
+
+#travel div div {
+    width: 1500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#travel div div div {
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#travel div div div h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Jazz LET", sans-serif;
+    background-image: url("images/div_background.jpg");
+    padding: 5px;
+}
+
+#travel div div div img{
+    height: 600px;
+    width: 600px;
+}
+
+
 /* HOBBIES SECTION STYLING */
 
 #hobbies {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 
