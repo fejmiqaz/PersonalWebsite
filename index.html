@@ -1,228 +1,512 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Fejmi's Personal Website</title>
-    <link rel="icon" href="images/F_LOGO.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fejmi's Personal Website</title>
+  <link rel="icon" href="images/F_LOGO.png">
 </head>
 <body>
-
 <header>
-    <div>
-        <nav>
-            <h1>Fejmi's Personal Website</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#travel">Travel</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <nav>
+    <h1>FQ</h1>
+    <ul id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#travel">Travel</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
+  </nav>
 </header>
 
-<section id="about">
-    <div>
-        <h1>ABOUT ME</h1>
-        <div>
-            <div>
-                <h2>Fejmi Qazimi</h2>
-                <h3>Software Engineering Student</h3>
-            </div>
-            <div>
-                <p>I am a 20-year-old student from North Macedonia. I'm passionate about coding, friendly, and enjoy meeting new people. When I'm not immersed in my studies or coding projects, you can find me playing soccer, hiking, listening to music, watching films, or spending quality time with friends and family. I believe in balancing work with leisure to lead a happy and fulfilling life.
-                    <br>Let's connect and chat! </p>
-            </div>
-        </div>
+<section id="about" class="visible">
+  <div>
+    <h1>ABOUT ME</h1>
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Fejmi Qazimi</h2>
+        <h3>Software Engineering Student</h3>
+        <p>I am a 20-year-old student from North Macedonia. I'm passionate about coding, friendly, and enjoy meeting new people. When I'm not immersed in my studies or coding projects, you can find me playing soccer, hiking, listening to music, watching films, or spending quality time with friends and family.</p>
+        <p>I have a strong foundation in Data Structures, Algorithms, Artificial Intelligence, and Object-oriented programming. I believe in balancing work with leisure to lead a happy and fulfilling life.</p>
+        <p>Let's connect and chat!</p>
+      </div>
+      <div class="about-img">
+        <img src="/api/placeholder/300/300" alt="Fejmi Qazimi" class="profile-img">
+      </div>
     </div>
+  </div>
 </section>
 
 <section id="education">
-    <div>
-        <h1>EDUCATION</h1>
-        <div>
-            <h2>University</h2>
-            <div>
-                <img src="images/FINKI_LOGO.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 50px" alt="">
-                <p>Currently pursuing my degree in Software Engineering and Information Systems at <a href="https://finki.ukim.mk/" style="color:white; text-decoration: none" target="_blank"><i>Faculty of Computer Science and Engineering</i></a> in Skopje.</p>
-            </div>
-            <h2>High School</h2>
-            <div>
-                <img src="images/HS_LOGO.jpg" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 50px" alt="">
-                <p>Graduated from <a href="https://ismet-jashari.edu.mk/" style="color:white; text-decoration: none" target="_blank"><i>HS "Ismet Jashari" - Lipkovo</i></a>, North Macedonia in June 2023.</p>
-            </div>
-            <h2>Other courses</h2>
-            <div>
-                <img src="images/PerProgamera.jpg" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 50px" alt="">
-                <p>Successfully finished the C# .NET Developer course (<a href="https://perprogramera.com/" style="color:white; text-decoration: none" target="_blank"><i>Për Programera</i></a>) in September 2023.</p>
-            </div>
-        </div>
+  <div>
+    <h1>EDUCATION</h1>
+    <div class="education-item">
+      <div class="education-logo">
+        <img src="images/FINKI_LOGO.png" alt="University Logo">
+      </div>
+      <div class="education-info">
+        <h2>University</h2>
+        <p>Currently pursuing my degree in Software Engineering and Information Systems at <a href="https://finki.ukim.mk/" target="_blank">Faculty of Computer Science and Engineering</a> in Skopje.</p>
+      </div>
     </div>
+    <div class="education-item">
+      <div class="education-logo">
+        <img src="images/HS_LOGO.jpg" alt="High School Logo">
+      </div>
+      <div class="education-info">
+        <h2>High School</h2>
+        <p>Graduated from <a href="https://ismet-jashari.edu.mk/" target="_blank">HS "Ismet Jashari" - Lipkovo</a>, North Macedonia in June 2023.</p>
+      </div>
+    </div>
+    <div class="education-item">
+      <div class="education-logo">
+        <img src="images/PerProgamera.jpg" alt="Course Logo">
+      </div>
+      <div class="education-info">
+        <h2>Other courses</h2>
+        <p>Successfully finished the C# .NET Developer course (<a href="https://perprogramera.com/" target="_blank">Për Programera</a>) in September 2023.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="skills">
-    <div>
-        <div class="skills-container">
-            <h1>SKILLS</h1>
-            <div class="skills-list">
-                <ul>
-                    <li><p>C++</p> <span>●●●●○</span></li>
-                    <li><p>HTML</p> <span>●●●●●</span></li>
-                    <li><p>CSS</p> <span>●●●●○</span></li>
-                </ul>
-                <ul>
-                    <li><p>.NET</p> <span>●●○○○</span></li>
-                    <li><p>MS Office</p> <span>●●●●●</span></li>
-                    <li><p>Adobe Photoshop</p> <span>●●●○○</span></li>
-                </ul>
-            </div>
-        </div>
-        <h1>LANGUAGES</h1>
-        <div class="skills-list">
-            <ul>
-                <li><p>Albanian</p><span>●●●●●</span></li>
-                <li><p>English</p> <span>●●●●○</span></li>
-                <li><p>Macedonian</p> <span>●●●○○</span></li>
-            </ul>
-        </div>
+  <div>
+    <div class="skills-container">
+      <h1>TECHNICAL SKILLS</h1>
+      <div class="skills-list">
+        <ul>
+          <li data-skill="90"><p>HTML</p> <span>●●●●●</span></li>
+          <li data-skill="80"><p>CSS</p> <span>●●●●○</span></li>
+          <li data-skill="70"><p>JavaScript</p> <span>●●●○○</span></li>
+          <li data-skill="80"><p>Python</p> <span>●●●●○</span></li>
+        </ul>
+        <ul>
+          <li data-skill="80"><p>C++</p> <span>●●●●○</span></li>
+          <li data-skill="70"><p>Java</p> <span>●●●○○</span></li>
+          <li data-skill="40"><p>.NET</p> <span>●●○○○</span></li>
+          <li data-skill="75"><p>Data Structures</p> <span>●●●○○</span></li>
+        </ul>
+      </div>
     </div>
+
+    <div class="skills-container">
+      <h1>OTHER SKILLS</h1>
+      <div class="skills-list">
+        <ul>
+          <li data-skill="75"><p>Algorithms</p> <span>●●●○○</span></li>
+          <li data-skill="60"><p>Artificial Intelligence</p> <span>●●●○○</span></li>
+          <li data-skill="85"><p>Object-oriented Programming</p> <span>●●●●○</span></li>
+        </ul>
+        <ul>
+          <li data-skill="90"><p>MS Office</p> <span>●●●●●</span></li>
+          <li data-skill="60"><p>Adobe Photoshop</p> <span>●●●○○</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills-container">
+      <h1>LANGUAGES</h1>
+      <div class="skills-list">
+        <ul>
+          <li data-skill="100"><p>Albanian</p><span>●●●●●</span></li>
+          <li data-skill="80"><p>English</p> <span>●●●●○</span></li>
+          <li data-skill="60"><p>Macedonian</p> <span>●●●○○</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
+<section id="projects">
+  <div>
+    <h1>PROJECTS</h1>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img">
+          <i>🖥️</i>
+        </div>
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio website showcasing my skills, projects, and experience using HTML, CSS, and JavaScript.</p>
+          <div class="project-links">
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
 
-<!--<section id="skills">-->
-<!--    <div>-->
-<!--        <h1>SKILLS</h1>-->
-<!--        <div>-->
-<!--            <ul>-->
-<!--                <li><p>C++</p> <span>●●●●○</span></li>-->
-<!--                <li><p>HTML</p> <span>●●●●●</span></li>-->
-<!--                <li><p>CSS</p> <span>●●●●○</span></li>-->
-<!--            </ul>-->
-<!--            <ul>-->
-<!--                <li><p>.NET</p> <span>●●○○○</span></li>-->
-<!--                <li><p>MS Office</p> <span>●●●●●</span></li>-->
-<!--                <li><p>Adobe Photoshop</p> <span>●●●○○</span></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--        <h1>LANGUAGES</h1>-->
-<!--        <div>-->
-<!--            <ul>-->
-<!--                <li><p>Albanian</p><span>●●●●●</span></li>-->
-<!--                <li><p>English</p> <span>●●●●○</span></li>-->
-<!--                <li><p>Macedonian</p> <span>●●●○○</span></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+      <div class="project-card">
+        <div class="project-img">
+          <i>📊</i>
+        </div>
+        <div class="project-info">
+          <h3>COVID-19 Dashboard</h3>
+          <p>Interactive dashboard displaying COVID-19 statistics and visualizations using data analysis and web technologies.</p>
+          <div class="project-links">
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="project-card">
+        <div class="project-img">
+          <i>🔄</i>
+        </div>
+        <div class="project-info">
+          <h3>JoinTheQueue</h3>
+          <p>Web application for efficient queue management and waiting line organization for businesses.</p>
+          <div class="project-links">
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <i>🔐</i>
+        </div>
+        <div class="project-info">
+          <h3>Sign Up / Log In Pages</h3>
+          <p>Secure authentication system with user registration and login functionality.</p>
+          <div class="project-links">
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <i>🎮</i>
+        </div>
+        <div class="project-info">
+          <h3>Word Guessing Game</h3>
+          <p>Interactive word guessing game with engaging UI and fun gameplay mechanics.</p>
+          <div class="project-links">
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="travel">
+  <div>
     <h1>TRAVEL EXPERIENCE</h1>
-    <div>
-        <div>
-            <div style="justify-content: left">
-                <img src="images/Vlora.jpeg" alt="" style="box-shadow: -10px 10px 10px white;">
-                <h2 style="padding-left: 170px">Vlorë, Albania 2023</h2>
-            </div>
-            <div style="justify-content: right">
-                <h2 style="padding-right: 150px">Geneve, Switzerland 2018</h2>
-                <img src="images/Geneve.jpeg" alt="" style="box-shadow: 10px 10px 10px white;">
-            </div>
-            <div style="justify-content: left">
-                <img src="images/NYC.jpeg" alt="" style="box-shadow: -10px 10px 10px white;">
-                <h2 style="padding-left: 150px">New York City, USA 2021</h2>
-            </div>
-            <div style="justify-content: right">
-                <h2 style="padding-right: 160px">Rovinj, Croatia 2022</h2>
-                <img src="images/Rovinj.jpeg" alt="" style="box-shadow: 10px 10px 10px white;">
-            </div>
+    <div class="travel-gallery">
+      <div class="travel-item">
+        <img src="images/Vlora.jpeg" alt="Vlorë, Albania">
+        <div class="travel-caption">
+          <h2>Vlorë, Albania 2023</h2>
         </div>
+      </div>
+      <div class="travel-item">
+        <img src="images/Geneve.jpeg" alt="Geneve, Switzerland">
+        <div class="travel-caption">
+          <h2>Geneve, Switzerland 2018</h2>
+        </div>
+      </div>
+      <div class="travel-item">
+        <img src="images/NYC.jpeg" alt="New York City, USA">
+        <div class="travel-caption">
+          <h2>New York City, USA 2021</h2>
+        </div>
+      </div>
+      <div class="travel-item">
+        <img src="images/Rovinj.jpeg" alt="Rovinj, Croatia">
+        <div class="travel-caption">
+          <h2>Rovinj, Croatia 2022</h2>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-
-
 
 <section id="hobbies">
-    <div>
-        <h1>HOBBIES</h1>
-        <div>
-            <div>
-                <img src="images/soccer.jpg" alt="">
-                <h2>Football</h2>
-            </div>
-            <div>
-                <img src="images/hiking.png" alt="">
-                <h2>Hiking</h2>
-            </div>
-            <div>
-                <img src="images/rockmusic.jpg" alt="">
-                <h2>Music</h2>
-            </div>
-            <div>
-                <img src="images/cinema.png" alt="">
-                <h2>Films</h2>
-            </div>
-        </div>
+  <div>
+    <h1>HOBBIES</h1>
+    <div class="hobbies-grid">
+      <div class="hobby-item">
+        <img src="images/soccer.jpg" alt="Football">
+        <h2>Football</h2>
+      </div>
+      <div class="hobby-item">
+        <img src="images/hiking.png" alt="Hiking">
+        <h2>Hiking</h2>
+      </div>
+      <div class="hobby-item">
+        <img src="images/rockmusic.jpg" alt="Music">
+        <h2>Music</h2>
+      </div>
+      <div class="hobby-item">
+        <img src="images/cinema.png" alt="Films">
+        <h2>Films</h2>
+      </div>
     </div>
+  </div>
 </section>
-
 
 <section id="contact">
-    <div>
-        <div>
-            <h1><a href="mailto:fejmiqaz@gmail.com">
-                <img src="images/email.png" alt="">
-            </a></h1>
+  <div>
+    <h1>CONTACT ME</h1>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <div class="contact-links">
+          <a href="mailto:fejmiqaz@gmail.com" class="contact-link">
+            <img src="images/email.png" alt="Email">
+            <span>fejmiqaz@gmail.com</span>
+          </a>
+          <a href="#" class="contact-link">
+            <img src="images/call.png" alt="Phone">
+            <span>+XXX XXX XXX</span>
+          </a>
+          <a href="https://www.linkedin.com/in/fejmi-qazimi/" target="_blank" class="contact-link">
+            <img src="images/linkedin_icon.png" alt="LinkedIn">
+            <span>Fejmi Qazimi</span>
+          </a>
+          <a href="https://github.com/fejmiqaz" target="_blank" class="contact-link">
+            <img src="images/github_icon.png" alt="GitHub">
+            <span>fejmiqaz</span>
+          </a>
         </div>
-
-        <div>
-            <h1><a href="">
-                <img src="images/call.png" alt="">
-            </a></h1>
-        </div>
-
-        <div>
-            <h1><a href="https://www.linkedin.com/in/fejmi-qazimi/" target="_blank">
-                <img src="images/linkedin_icon.png" alt="">
-            </a></h1>
-        </div>
-
-        <div>
-            <h1><a href="https://github.com/fejmiqaz" target="_blank">
-                <img src="images/github_icon.png" alt="">
-            </a></h1>
-        </div>
-
-    </div>
-
-    <div>
-        <form action="#">
-            <label for="name">
-                <input type="text" id="name" name="Name" placeholder="Name">
-            </label>
-            <label for="email">
-                <input type="email" id="email" name="email" placeholder="Email">
-            </label>
-            <label for="message">
-                <input type="text" id="message" placeholder="Message" style="height: 70px">
-            </label>
-            <label for="submit">
-                <input type="submit" id="submit" style="width: 100px; border-radius: 15px">
-            </label>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
         </form>
+      </div>
     </div>
+  </div>
 </section>
 
+<div class="back-to-top" id="backToTop">↑</div>
+
 <footer>
-
-    &copy; 2024 Fejmi Qazimi. All rights reserved.
-
+  &copy; 2024 Fejmi Qazimi. All rights reserved.
 </footer>
 
+<script>
+  // Mobile menu functionality
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navMenu = document.getElementById('nav-menu');
 
+  mobileMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  });
 
+  // Close mobile menu when clicking a nav link
+  const navLinks = document.querySelectorAll('#nav-menu a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('active');
+      navMenu.classList.remove('active');
+    });
+  });
+
+  // Scroll animation for sections
+  const sections = document.querySelectorAll('section');
+
+  const checkSections = () => {
+    const triggerBottom = window.innerHeight * 0.8;
+
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if (sectionTop < triggerBottom) {
+        section.classList.add('visible');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', checkSections);
+  window.addEventListener('load', checkSections);
+
+  // Header scroll effect
+  const header = document.querySelector('header');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+
+  // Back to top button
+  const backToTopBtn = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add('show');
+    } else {
+      backToTopBtn.classList.remove('show');
+    }
+  });
+
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Skills animation
+  const skillItems = document.querySelectorAll('.skills-list li');
+
+  const animateSkills = () => {
+    skillItems.forEach(item => {
+      const skillLevel = item.getAttribute('data-skill');
+      item.style.setProperty('--skill-width', skillLevel + '%');
+      item.querySelector('span').style.width = skillLevel + '%';
+
+      // Animate the skill bar fill
+      setTimeout(() => {
+        item.style.setProperty('--before-width', skillLevel + '%');
+        item.querySelector('::before').style.width = skillLevel + '%';
+      }, 300);
+    });
+  };
+
+  // Active skill animation when skills section is visible
+  const skillsSection = document.getElementById('skills');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        skillItems.forEach(item => {
+          const skillLevel = item.getAttribute('data-skill');
+          item.style.setProperty('--before-width', '0%');
+          setTimeout(() => {
+            item.style.setProperty('--before-width', skillLevel + '%');
+            item.querySelector('::before').style.width = skillLevel + '%';
+          }, 300);
+        });
+      }
+    });
+  }, { threshold: 0.2 });
+
+  observer.observe(skillsSection);
+
+  // Form validation and submission
+  const contactForm = document.getElementById('contactForm');
+
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const messageInput = document.getElementById('message');
+
+    // Simple validation
+    if (!nameInput.value.trim()) {
+      alert('Please enter your name');
+      nameInput.focus();
+      return;
+    }
+
+    if (!emailInput.value.trim()) {
+      alert('Please enter your email');
+      emailInput.focus();
+      return;
+    }
+
+    if (!messageInput.value.trim()) {
+      alert('Please enter your message');
+      messageInput.focus();
+      return;
+    }
+
+    // Form submission logic would go here
+    // For now, just show a success message
+    alert('Thank you for your message! I will get back to you soon.');
+    contactForm.reset();
+  });
+
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const headerHeight = document.querySelector('header').offsetHeight;
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // Typing effect for about section
+  const aboutTitle = document.querySelector('#about h2');
+  const aboutText = aboutTitle.textContent;
+  aboutTitle.textContent = '';
+
+  let i = 0;
+  const typeWriter = () => {
+    if (i < aboutText.length) {
+      aboutTitle.textContent += aboutText.charAt(i);
+      i++;
+      setTimeout(typeWriter, 100);
+    }
+  };
+
+  // Start typing effect when about section is visible
+  const aboutSection = document.getElementById('about');
+  const aboutObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        setTimeout(typeWriter, 500);
+        aboutObserver.unobserve(aboutSection);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  aboutObserver.observe(aboutSection);
+
+  // Project cards hover effect
+  const projectCards = document.querySelectorAll('.project-card');
+
+  projectCards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+      card.style.transform = 'translateY(-10px)';
+    });
+
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'translateY(0)';
+    });
+  });
+</script>
 </body>
 </html>
